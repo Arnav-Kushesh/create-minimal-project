@@ -1,4 +1,4 @@
-import doPrerendering from "./simpleSiteOptimizer/doPrerendering.js";
+import { doPrerendering } from "simple-site-optimizer";
 import config from "./config.js";
 
 // Start the SSR service
