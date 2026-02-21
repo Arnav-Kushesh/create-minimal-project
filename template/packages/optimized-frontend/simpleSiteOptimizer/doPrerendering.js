@@ -2,10 +2,10 @@ import express from "express";
 import puppeteer from "puppeteer";
 import { open } from "lmdb";
 import cors from "cors";
-import { match } from "path-to-regexp";
-import fs from "fs";
+
+
 import path from "path";
-import Handlebars from "handlebars";
+
 import preventTextNodeMerge from "./utils/preventTextNodeMerge.js";
 
 /**
@@ -17,6 +17,7 @@ import preventTextNodeMerge from "./utils/preventTextNodeMerge.js";
  * @param {number} options.port - Main server port
  * @param {number} [options.prerenderingPort=4050] - Port for prerendering server
  */
+
 export default async function doPrerendering({
   buildFolder,
   staticRoutes,
