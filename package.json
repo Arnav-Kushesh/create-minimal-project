@@ -1,17 +1,17 @@
 {
-  "name": "start-minimal-project",
+  "name": "create-minimal-project",
   "version": "1.0.17",
   "description": "A minimal full-stack setup with out-of-the-box support for SSR, SSG, and sitemap generation.",
   "bin": {
-    "start-minimal-project": "./index.js"
+    "create-minimal-project": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnav-kushesh/start-minimal-project.git"
+    "url": "https://github.com/arnav-kushesh/create-minimal-project.git"
   },
-  "homepage": "https://github.com/arnav-kushesh/start-minimal-project",
+  "homepage": "https://github.com/arnav-kushesh/create-minimal-project",
   "bugs": {
-    "url": "https://github.com/arnav-kushesh/start-minimal-project/issues"
+    "url": "https://github.com/arnav-kushesh/create-minimal-project/issues"
   },
   "keywords": [
     "react",

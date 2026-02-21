@@ -37,7 +37,7 @@ function HomePage() {
   return (
     <div>
       <header>
-        <h1 className={title}>start-minimal-project</h1>
+        <h1 className={title}>create-minimal-project</h1>
         <p>
           A minimal full-stack setup with out-of-the-box support for SSR, SSG,
           and sitemap generation.

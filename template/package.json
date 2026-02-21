@@ -1,5 +1,5 @@
 {
-  "name": "start-minimal-project-template",
+  "name": "create-minimal-project-template",
   "private": true,
   "workspaces": [
     "packages/*"

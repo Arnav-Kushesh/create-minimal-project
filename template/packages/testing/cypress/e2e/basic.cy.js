@@ -1,7 +1,7 @@
 describe('Start Minimal Critical Flows', () => {
     it('loads the homepage for a normal user', () => {
         cy.visit('/');
-        cy.contains('start-minimal-project');
+        cy.contains('create-minimal-project');
         cy.contains('Posts');
         // Ensure data loads from API
         cy.contains('Loading amazing content...').should('exist');
