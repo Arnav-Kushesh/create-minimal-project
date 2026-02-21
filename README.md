@@ -1,7 +1,7 @@
 <div align="center">
 <br/><br/>
-<img alt="start-minimal-project-logo" src="https://raw.githubusercontent.com/arnav-kushesh/start-minimal-project/master/assets/pot.png" height="128"/>
-<h3 style="margin-top: 9px;">StartMinimal.js</h3>
+<img alt="start-minimal-project-logo" src="https://raw.githubusercontent.com/arnav-kushesh/start-minimal-project/master/assets/jellyfish.png" height="128"/>
+<h3 style="margin-top: 9px;">start-minimal-project</h3>
 
 <br/>
 
