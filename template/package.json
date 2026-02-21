@@ -1,0 +1,22 @@
+{
+  "name": "start-minimal-project-template",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build && turbo run prerender",
+    "dev": "turbo run dev",
+    "backend": "turbo run dev --filter backend",
+    "frontend": "turbo run dev --filter frontend",
+    "optimized-frontend": "turbo run start --filter optimized-frontend",
+    "console": "turbo run dev --filter ssr-console",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "prettier": "latest"
+  },
+  "packageManager": "npm@10.0.0"
+}
